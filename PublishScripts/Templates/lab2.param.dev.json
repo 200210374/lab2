@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "lab2716"
+  },
+  "hostingPlanName": {
+    "value": "none"
+  },
+  "siteLocation": {
+    "value": "Canada Central"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "b4180328-fc68-4757-976e-3db9e37d2f14"
+  },
+  "resourceGroup": {
+    "value": "sql-data"
+  }
+}

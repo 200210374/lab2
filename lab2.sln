@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2", "lab2\lab2.csproj", "{91150792-EC4C-40EB-A191-0D81D30B38AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{4EF2F1C4-FA1B-4B3B-95C0-254A754BB83A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{BFF0512B-51B9-4ED7-BB55-D48A211C218A}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+		Script1.js = Script1.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{8348C0C6-9588-4715-BFFE-0AFE1BC29E70}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\lab2.json = PublishScripts\Templates\lab2.json
+		PublishScripts\Templates\lab2.param.dev.json = PublishScripts\Templates\lab2.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91150792-EC4C-40EB-A191-0D81D30B38AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91150792-EC4C-40EB-A191-0D81D30B38AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91150792-EC4C-40EB-A191-0D81D30B38AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91150792-EC4C-40EB-A191-0D81D30B38AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFF0512B-51B9-4ED7-BB55-D48A211C218A} = {4EF2F1C4-FA1B-4B3B-95C0-254A754BB83A}
+		{8348C0C6-9588-4715-BFFE-0AFE1BC29E70} = {4EF2F1C4-FA1B-4B3B-95C0-254A754BB83A}
+	EndGlobalSection
+EndGlobal
