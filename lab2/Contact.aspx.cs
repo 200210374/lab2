@@ -13,5 +13,16 @@ namespace lab2
         {
 
         }
+
+        protected void CancelButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
+
+        protected void SendButton_Click(object sender, EventArgs e)
+        {
+            //replace this code with processing email
+            Response.Redirect("Default.aspx");
+        }
     }
 }
